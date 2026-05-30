@@ -21,6 +21,7 @@ const App = () => {
     <div className='mx-4 sm:mx-[10%]'>
       <ToastContainer />
       <Navbar />
+      <h1>CareBridge CI/CD Test</h1>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/doctors' element={<Doctors />} />
